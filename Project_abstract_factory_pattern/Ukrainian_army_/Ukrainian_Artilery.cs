@@ -9,7 +9,7 @@ namespace Project_abstract_factory_pattern.Ukrainian_army_
 {
     class Ukrainian_Artilery : Artilery
     {
-        public override void defeating_panzers()
+        public override void defeating_tanks()
         {
             Console.WriteLine(victory);
         }
