@@ -46,6 +46,9 @@
     <Compile Include="Army_branches\Artilery.cs" />
     <Compile Include="Army_branches\Paratroopers.cs" />
     <Compile Include="Army_branches\Tanks.cs" />
+    <Compile Include="Factories\Army_factory.cs" />
+    <Compile Include="Factories\Russian_army.cs" />
+    <Compile Include="Factories\Ukrainian_army.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Russian_army_\Russian_Artilery.cs" />
@@ -58,9 +61,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Factories\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
